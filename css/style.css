@@ -548,9 +548,13 @@ footer li a:hover {
   position: relative;
   background-attachment: fixed;
   text-align: center;
-  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+   -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
 }
 .content .register{
 		  background: #4d4e53; 
@@ -978,32 +982,3 @@ footer{
 
 }
 
-	position: relative;
-	width: 100%;
-	overflow: auto;
-	font-size: 18px;
-	line-height: 24px;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.6);
-	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.3);
-	background: none repeat scroll 0% 0% rgb(91, 77, 61);
-	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
-}
-#slider ul{
-    list-style: none;
-    width: 300%;
-    padding: 0;
-}
-#slider ul li{
-    display: block;
-    width: 33.333333%;
-    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.1) inset;
-    padding: 160px 0px 110px;
-    float: left;
-    min-height: 450px;
-}
-#slider h1, #slider h2 {
-    font-size: 40px;
-    line-height: 52px;
-    color: rgb(255, 255, 255);
-}
