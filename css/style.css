@@ -532,6 +532,13 @@ footer li a:hover {
   border: 2px solid #c1423d;
   background-color: #c1423d;
 }
+footer .initlogo{
+	display: block;
+	height: 40px;
+	width: 260px;
+	background: url("../images/mozkwhite.png") repeat scroll 0% 0% transparent;
+	text-indent: -9999px;
+}
 
 .content {
   width: 100%;
@@ -551,6 +558,7 @@ footer li a:hover {
   -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
+	background-size:100%;
 }
 .content .register{
 		  background: #4d4e53; 
